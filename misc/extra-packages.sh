@@ -17,10 +17,10 @@ echo ""
 sudo pacman -S --needed noto-fonts-cjk noto-fonts-emoji noto-fonts
 
 echo ""
-echo "- Installing Firefox, Thunderbird, Tilix, Fish, Flatpak, Telegram, Discord"
+echo "- Installing Firefox, Geary, Fish, Flatpak, Telegram, Discord"
 echo ""
 
-sudo pacman -S --needed firefox thunderbird tilix fish flatpak 
+sudo pacman -S --needed firefox geary fish flatpak 
 
 echo ""
 echo "- Setting up Yubikey Support"
